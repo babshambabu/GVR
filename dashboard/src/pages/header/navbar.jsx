@@ -8,13 +8,14 @@ function Navbar({ OpenSidebar }) {
         <div className={styles.menuIcon}>
             <BsJustify className={styles.icon} onClick={OpenSidebar}/>
         </div>
+        
         <div className={styles.headerLeft}>
             <BsSearch className={styles.icon}/>
         </div>
         <div className={styles.headerRight}>
-            <BsFillBellFill className={styles.icon}/>
-            <BsFillEnvelopeFill className={styles.icon}/>
-            <BsPersonCircle className={styles.icon}/>
+            <BsFillBellFill className={styles.icon_right1}/>
+            <BsFillEnvelopeFill className={styles.icon_right2}/>
+            <BsPersonCircle className={styles.icon_right3}/>
         </div>
     </header>
   );
