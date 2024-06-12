@@ -4,7 +4,7 @@ const login=async(req,res)=>{
 
     console.log(req.body)
     
-    if (username === 'dilu' && password === '1234') {
+    if (username === 'learnbuds' && password === 'learnbuds') {
         res.json({ success: true });
     } else {
         res.status(401).json({ success: false, message: 'Invalid credentials' });
