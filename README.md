@@ -19,3 +19,5 @@ cd backend
 npm install
 
 npm start
+hello
+hello
